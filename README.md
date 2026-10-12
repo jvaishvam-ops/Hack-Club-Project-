@@ -10,6 +10,15 @@ This project is a custom PCB design for a compact input/control board built arou
 - [JOURNAL.md](JOURNAL.md) — build and design notes
 - [README.md](README.md) — project documentation
 
+## KiCad Project Files
+
+The main project source files for the PCB design are:
+
+- `week 1 lock in module .kicad_pro` — KiCad project configuration
+- `week 1 lock in module .kicad_sch` — schematic source file
+- `week 1 lock in module .kicad_pcb` — PCB layout editor file
+- `week 1 lock in module .kicad_prl` — KiCad local project settings
+
 ## Schematic and Fabrication Files
 
 The repository contains the complete set of PCB fabrication and schematic output files used for the board design:
