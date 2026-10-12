@@ -6,9 +6,31 @@ This project is a custom PCB design for a compact input/control board built arou
 
 ## Included Design Files
 
-- `BOM.md` — bill of materials
-- `JOURNAL.md` — build and design notes
-- `schematic-F_Cu.gbr` and related Gerber files — PCB fabrication outputs
+- [BOM.md](BOM.md) — bill of materials
+- [JOURNAL.md](JOURNAL.md) — build and design notes
+- [README.md](README.md) — project documentation
+
+## Schematic and Fabrication Files
+
+The repository contains the complete set of PCB fabrication and schematic output files used for the board design:
+
+- [schematic-B_Cu.gbl](schematic-B_Cu.gbl)
+- [schematic-B_Cu.gbr](schematic-B_Cu.gbr)
+- [schematic-B_Mask.gbr](schematic-B_Mask.gbr)
+- [schematic-B_Mask.gbs](schematic-B_Mask.gbs)
+- [schematic-B_Paste.gbp](schematic-B_Paste.gbp)
+- [schematic-B_Silkscreen.gbo](schematic-B_Silkscreen.gbo)
+- [schematic-Edge_Cuts.gbr](schematic-Edge_Cuts.gbr)
+- [schematic-Edge_Cuts.gm1](schematic-Edge_Cuts.gm1)
+- [schematic-F_Cu.gbr](schematic-F_Cu.gbr)
+- [schematic-F_Cu.gtl](schematic-F_Cu.gtl)
+- [schematic-F_Mask.gts](schematic-F_Mask.gts)
+- [schematic-F_Paste.gbr](schematic-F_Paste.gbr)
+- [schematic-F_Paste.gtp](schematic-F_Paste.gtp)
+- [schematic-F_Silkscreen.gbr](schematic-F_Silkscreen.gbr)
+- [schematic-NPTH.drl](schematic-NPTH.drl)
+- [schematic-PTH.drl](schematic-PTH.drl)
+- [schematic-job.gbrjob](schematic-job.gbrjob)
 
 ## PCB Render and Layout Screenshots
 
