@@ -2,7 +2,24 @@
 
 ## Project Overview
 
-This project is a custom PCB design for a compact input/control board built around a microcontroller footprint and four push-button switch positions. The design includes the complete board layout, routing, and associated fabrication outputs in this repository.
+This project is a custom PCB design for a compact input/control board built around a microcontroller footprint and four push-button switch positions. The design includes the complete board layout, fabrication outputs, and supporting documentation for a small productivity-focused device.
+
+## How The Timer Works
+
+The Lock-In Clock is a productivity tracker designed to help me stay focused during study sessions. At its core, it acts as a Pomodoro timer. When powered on, the Raspberry Pi Pico W runs a MicroPython script that defaults to a 25-minute countdown. The current status (like "PAUSED" or "LOCK IN") and the remaining time are displayed on the 0.96" I2C OLED screen.
+
+## What The 4 Buttons Do
+
+I designed the custom PCB to hold 4 tactile Cherry MX Brown mechanical switches to control the timer without needing a mouse or keyboard.
+
+- **Button 1 (Start/Pause):** Toggles the timer on or off. When pressed, the screen updates to say "LOCK IN" and the countdown begins. Pressing it again pauses the timer.
+- **Button 2 (Reset):** Stops the timer immediately and resets the clock back to the default 25 minutes.
+- **Button 3 (Add Time):** Adds 5 minutes (300 seconds) to the current timer block if I feel like I need a longer study session.
+- **Button 4 (Subtract Time):** Subtracts 5 minutes from the current timer block in case I want a shorter sprint.
+
+## How I Used AI in the PCB Layout
+
+I used AI (specifically a large language model) as a troubleshooting and learning assistant while designing the PCB in KiCad. Because this was my first time designing a custom board, I used AI to help me verify my footprint sizes, double-check that my components (like the Cherry MX switches and I2C screen) would physically fit, and ensure my Gerber manufacturing files were formatted correctly (like renaming the edge cuts to `outline.gml` and removing macOS hidden metadata files) before submitting them to the PCB manufacturer.
 
 ## Included Design Files
 
