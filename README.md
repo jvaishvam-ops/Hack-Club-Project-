@@ -66,7 +66,7 @@ The broken layout image links were replaced with the images uploaded above. Thes
 ![Lock-In Module Schematic](schematic.png)
 
 **2. Manufactured PCB (Delivered):**
-![Manufactured Custom PCB](physical_pcb.jpg)
+![Manufactured Custom PCB](physical_pcb.png)
 
 ## Notes
 
