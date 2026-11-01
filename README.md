@@ -66,8 +66,7 @@ The broken layout image links were replaced with the images uploaded above. Thes
 ![Lock-In Module Schematic](schematic.png)
 
 **2. Manufactured PCB (Delivered):**
-![Manufactured Custom PCB](physical pcb.png)
-
+![Manufactured Custom PCB](physicalpcb.png)
 ## Notes
 
 The repository is designed to document the PCB development process and provide the core fabrication-ready outputs for the project.
