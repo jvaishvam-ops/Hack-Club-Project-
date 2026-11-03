@@ -70,3 +70,18 @@ The broken layout image links were replaced with the images uploaded above. Thes
 ## Notes
 
 The repository is designed to document the PCB development process and provide the core fabrication-ready outputs for the project.
+
+
+
+
+## Bill of Materials
+
+| Part Name | Quantity (For 1 Unit) | Price per unit (INR) | Supplier |
+| :--- | :--- | :--- | :--- |
+| Raspberry Pi Pico W | 1 | 649.00 | Robu.in |
+| 0.96 inch OLED with ssd1306 128x64 I2C | 1 | 169.00 | Robu.in |
+| Mechanical Switch Brown Silent Click (8166) | 4 | 14.00 | Sunrom.com |
+| Black DSA Keycap for MX Compatible (8118) | 4 | 19.00 | Sunrom.com |
+| 1x40 Pin 2.54mm Straight Long Female Strip | 2 | 98.00 | Robu.in |
+| 1x40 Pin 2.54mm Male Single Row Header Strip | 2 | 9.00 | Robu.in |
+| Custom PCB (55x79mm 2-layer) | 5 (Batch) | - | PCB Power |
